@@ -27,7 +27,7 @@ const AddBankAccount = () => {
   };
 
   const saveAccount = (e) => {
-    fetch("https://bankapi.onyemsbhospitals.org /api/bank/account/add", {
+    fetch("https://bankapi.onyemsbhospitals.org/api/bank/account/add", {
       method: "POST",
       headers: {
         Accept: "application/json",

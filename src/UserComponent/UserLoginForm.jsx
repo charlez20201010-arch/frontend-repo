@@ -13,7 +13,7 @@ const UserLoginForm = () => {
   };
 
   const loginAction = (e) => {
-    fetch("https://bankapi.onyemsbhospitals.org /api/user/login", {
+    fetch("https://bankapi.onyemsbhospitals.org/api/user/login", {
       method: "POST",
       headers: {
         Accept: "application/json",
